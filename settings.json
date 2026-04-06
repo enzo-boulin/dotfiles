@@ -1,0 +1,29 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "python": false
+    },
+    "git.autofetch": true,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.sideBar.location": "right",
+    "extensions.ignoreRecommendations": true,
+    "workbench.colorTheme": "Monokai",
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false
+}
